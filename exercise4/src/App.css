@@ -1,0 +1,47 @@
+body {
+  font-family: 'Impact', sans-serif;
+  text-align: center;
+  color: #535C91,
+}
+
+h1 {
+  font-size: 30px;
+  color: #9290C3;
+  font-family: bold;
+}
+
+input {
+  margin-right: 8px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 8px;
+  padding: 8px;
+}
+
+button {
+  margin-left: 4px;
+  background-color: #9290C3;
+  padding: 8px;
+  border-radius: 4px;
+  color: #fff;
+  border: none;
+}
+
+
+.tab {
+  display: flex;
+  justify-content: center;
+}
+
+.tab .active {
+  background-color: #9290C3;
+}
